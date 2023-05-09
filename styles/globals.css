@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* Global Variable  */
+:root {
+  --text-font-size: 18px;
+  --heading-size: 28px;
+  --btn-text-size: 16px;
+  --input-placeholder-text: 14px;
+  --input-label-size: 13px;
+}
+
+/* main viewport */
+#login-app-main-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* landing page styles starts */
+
+
+.landing-screen-body {
+  width: 375px;
+  height: 100vh;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  overflow: hidden;
+  padding: 0 20px 50px 20px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.landing-screen-content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.landing-screen-heading h1 {
+  text-align: left;
+  font: normal normal medium 28px/17px Rubik !important;
+  letter-spacing: 0px;
+  color: #1D2226;
+  opacity: 1;
+  font-size: var(--heading-size);
+  line-height: 0px;
+}
+
+.landing-screen-desc p {
+  text-align: left;
+  font: normal normal normal 18px/26px Rubik;
+  letter-spacing: 0px;
+  color: #1D2226;
+  opacity: 0.6;
+  line-height: 8px;
+  font-size: var(--text-font-size);
+}
+
+.create-account-btn button {
+  background: #6C25FF 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  color: #fff;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 12px 0;
+  margin-top: 15px;
+  font-size: var(--btn-text-size);
+  cursor: pointer;
+}
+
+.login-link button {
+  text-align: center;
+  font: normal normal medium 16px/17px Rubik;
+  letter-spacing: 0px;
+  color: #1D2226 !important; 
+  opacity: 1;
+  font-size: var(--text-font-size);
+}
+
+
+
+/* Login Screen styles starts */
+
+.login-screen-body {
+  width: 375px;
+  height: 100vh;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  overflow: hidden;
+  padding: 50px 20px 0px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.login-screen-content {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.login-screen-heading h1 {
+  text-align: left;
+  font: normal normal medium 28px/36px Rubik;
+  letter-spacing: 0px;
+  color: #1D2226;
+  opacity: 1;
+  font-size: var(--heading-size);
+  line-height: 10px;
+}
+
+.css-e70qmq .MuiTextField-root {
+  margin: 20px 0 0 0 !important;
+  width: 100%;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  text-align: left;
+  font: normal normal normal 13px/17px Rubik;
+  letter-spacing: 0px;
+  color: #6C25FF;
+  opacity: 1;
+  font-size: var(--input-label-size);
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input::placeholder,
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: var(--input-placeholder-text);
+  color: grey;
+}
+
+.login-btn button {
+  background: #CBCBCB 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1 !important;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 6px !important;
+  opacity: 1;
+  color: #fff;
+  padding: 12px 0;
+  margin-top: 15px;
+  font-size: var(--btn-text-size);
+  cursor: pointer;
+  text-align: center;
+  font: normal normal medium 16px/17px Rubik !important;
+  letter-spacing: 0px;
+  font-weight: 600;
+}
+
+
+
+/* Signup screen styles start */
+
+.signup-screen-body {
+  width: 375px;
+  height: 100vh;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  overflow: scroll;
+  padding: 50px 20px 30px 20px;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; */
+}
+
+.radio-groups-input p {
+  text-align: left;
+  font: normal normal normal 13px/17px Rubik !important;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #49525a;
+  font-weight: 600 !important;
+  font-size: var(--input-label-size) !important;
+}
+
+
+
+
+.css-ahj2mt-MuiTypography-root {
+  font-weight: 600 !important;
+  color: #665c5c !important;
+  font-size: var(--input-placeholder-text);
+}
+
+
+
+/* Profile page styles start  */
+
+.profile-screen-body {
+  width: 375px;
+  height: 100vh;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  overflow: hidden;
+  /* padding: 50px 20px 30px 20px; */
+}
+
+.account-settings {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000007;
+  opacity: 1;
+  width: 100%;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.account-settings p {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+  font-weight: 600;
+  margin: 0;
+  font-size: var(--text-font-size);
+}
+
+.profile-contents {
+  padding: 30px 20px 0 20px;
+}
+
+.upper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.titles {
+  margin-left: 20px;
+}
+
+.profile-pic .marry {
+  width: 76px;
+  height: 76px;
+}
+
+.titles h3 {
+  text-align: left;
+  font: normal normal medium 15px/19px Rubik;
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+  font-size: 15px;
+}
+
+.titles p {
+  text-align: left;
+  font: normal normal normal 14px/19px Rubik;
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+  font-size: var(--input-placeholder-text);
+  line-height: 0pxs;
+}
+
+.down p {
+  text-align: left;
+  font: normal normal normal 14px/22px Rubik;
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+  font-size: var(--input-placeholder-text);
+}
+
+.profile-pic {
+  position: relative;
+}
+
+.profile-pic .camera {
+  height: 23px;
+  width: 21px;
+  position: absolute;
+  bottom: 10px;
+  right: -5px;
+}
